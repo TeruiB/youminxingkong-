@@ -23,6 +23,7 @@
         <!-- windows phone 点击无高光 -->
         <meta name="msapplication-tap-highlight" content="no">
 		<link rel="stylesheet" href="css/myZoe.css" />
+		<link rel="stylesheet" href="css/loading.css">	
 	</head>
 	
 	<body>
@@ -577,6 +578,9 @@
 		<section class="robot_icon">
 			<img src="img/uzibv0upytf60493.jpg" alt="" />
 		</section>
+		<section class="loading">
+			<div>加载中。。。</div>
+		</section>
 	</body>
 		
 		<script src="js/jquery-1.10.1.min.js"></script>
@@ -594,8 +598,12 @@
 				});
 				$('.relaxation h5').height($('.relaxation h5').eq(0).height());
 			});
+			//if(document.readyState=='completed'){
+			//	console.log('111111')
+			//}
 		</script>
 		<script src="js/index.js"></script>
 		<script src="js/handGame.js"></script>
 		<script src="js/myZoe.js"></script>
+		<script src="js/loading.js"></script>	
 </html>

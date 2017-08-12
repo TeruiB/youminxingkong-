@@ -51,7 +51,7 @@ $('.add').on('click',function(){
 	}
 });
 //点击加载更多
-$('.addMore').on('touchend',function(){
-	var clone=$('.hand_list ul').eq(0).clone();
-	$('.addMore').before(clone);
+$('#add').on('click',function(){
+	var cl=$('.hand_list ul').eq(0).clone();
+	$('#add').before(cl)
 });

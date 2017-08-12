@@ -24,6 +24,7 @@
         <meta name="msapplication-tap-highlight" content="no">
 		<link rel="stylesheet" href="css/handGame.css" />
 		<link rel="stylesheet" href="css/myZoe.css" />
+		<link rel="stylesheet" href="css/loading.css">	
 	</head>
 	<body>
 		<header class="header">
@@ -70,7 +71,7 @@
 							<img src="img/20170609_yyc_325_4.jpg" alt="" />
 							<p>多种可用的载具与工具</p>
 							<p>超大的地图，可自由探索</p>
-							<p>精致的画面表现</p>							
+							<p>精致的画面表现</p>
 					</div>
 					<div class="add">
 						<i class="zan"></i><span>100</span>
@@ -90,7 +91,7 @@
 							<p>即时海战</p>
 							<p>充满魅力的立绘分格</p>
 							<p>丰富的养成收集要素</p>
-							<p>激烈的PVP战斗</p>	
+							<p>激烈的PVP战斗</p>
 					</div>
 					<div class="add">
 						<i class="zan"></i><span>1924</span>
@@ -153,7 +154,7 @@
 					</div>
 				</li>
 			</ul>
-			<p class="addMore"><a href="###">+点击加载更多</a></p>
+			<p class="addMore" id="add"><a href="###">+点击加载更多</a></p>
 		</section>
 		<section class="foot">
 			<img src="img/foot.png" alt="" />
@@ -176,7 +177,6 @@
 				<div class="image">
 				<div class="header">
 					<a href="###">x</a>
-					
 				</div>
 				<ul class="imgs clearfix">
 					<li><img src="img/icon (1).jpg" alt="" /></li>
@@ -189,6 +189,9 @@
 				</ul>
 			</div>
 		</section>
+		<section class="loading">
+			<div>加载中。。。</div>
+		</section>
 	</body>
 	<script>
 		window.onload=function(){
@@ -200,4 +203,5 @@
 	<script src="js/jquery-1.10.1.min.js"></script>
 	<script src="js/handGame.js"></script>
 	<script src="js/myZoe.js"></script>
+	<script src="js/loading.js"></script>
 </html>
